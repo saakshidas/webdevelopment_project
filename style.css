@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+ 
+}
+
+#main {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: rgb(108,248,95,0.938);
+  box-shadow: 5px 10px 30px rgba(20,158,7,0.938);
+  z-index: 1;
+  animation: mymove 5s infinite;
+}
+
+.logo img{
+  height: 45px;
+  
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(15, 14, 14);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.hey {
+  color: #070806;
+  font-weight: 500;
+  font-size: 23px;
+  border-bottom: 2px solid #39bfbd;
+  
+}
+.hey:hover{
+  color:#1db096;
+}
+
+@keyframes mymove {
+  from {background-color: rgb(208, 255, 0)(102, 255, 0);}
+  to {background-color: rgb(21, 219, 21);}
+}
+.image {
+  width: 400px;
+  height: 400px;
+  position: left;
+  float: left;
+}
+
+.image img {
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+padding: 50px 20px;
+float: left;
+position:left;
+left: 0%;
+ 
+  
+}
+
+.Content {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+.Content image{
+  flex-wrap:initial;
+  padding: 80px 10px;
+float: left;
+position:left;
+right: 100%;
+}
+
+.main-text {
+  width: 500px;
+  
+}
+
+.main-text h1 {
+  font-size:40px ;
+  color: #1c3548;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}
+
+.main-text p {
+  color: rgb(10, 8, 8);
+  font-size: 20px;
+}
+
+.resume-btn {
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #0a881b;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+.resume-btn:hover {
+  background-color: #d30404;
+  transition: all ease 0.1s;
+}
+.menu li a:hover {
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(43, 139, 24, 0.2);
+  transition: all ease 0.2s;
+}
+
+
+
+.header:hover{
+ color: rgb(108,248,95,0.938);
+  font-size:50px;
+  
+  
+}
